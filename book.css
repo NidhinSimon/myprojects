@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.firstnav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42, 42, 68);
+    height: 50px;
+
+}
+
+.firstnav.left {
+    display: flex;
+    margin-top: 11px;
+}
+
+.firstnav.right {
+    display: flex;
+}
+
+.left img {
+    width: 16%;
+    position: relative;
+    bottom: 51px;
+}
+
+.left input {
+    margin-inline: 11px;
+    width: 461px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 130px;
+
+}
+
+.left i {
+    font-size: 25px;
+    position: relative;
+    bottom: 125px;
+}
+
+.right p {
+    margin-inline: 22px;
+    font-size: 23px;
+    position: relative;
+    right: 56px;
+    top: 19px;
+}
+
+.right button {
+    margin-inline: 22px;
+    margin-inline: 22px;
+    width: 92px;
+    height: 32px;
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(245, 72, 101);
+   color:white;
+   cursor: pointer;
+}
+.secnav button{
+    cursor: pointer;
+}
+
+.right i {
+    margin-inline: 22px;
+    font-size: 32px;
+    position: relative;
+    /* bottom: 23px; */
+    left: 30px;
+    bottom: 1px;
+    top: 6px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+
+
+}
+
+.secnav {
+    background-color: rgb(26, 26, 48);
+    color: white;
+    height: 30px;
+
+}
+
+.secleft button {
+    margin-inline-start: 18px;
+    float: left;
+    padding: 5px 23px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.secright button {
+    margin-inline-start: 18px;
+    float: right;
+    padding: 5px 23px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.main img {
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.container h2 {
+    text-align: center;
+    padding: 10px;
+    width: 310px;
+    height: 15px;
+    background-color: rgb(49, 47, 48);
+    color: white;
+    margin-top: 56px;
+    border-radius: 13px;
+    position: relative;
+    bottom: 25px;
+    left: 546px;
+}
+
+h2 {
+    text-align: center;
+    padding: 38px;
+}
+
+.moviecards {
+    display: flex;
+    justify-content: center;
+    justify-content: space around;
+   
+}
+
+
+
+.moviecards img {
+    width: 15%;
+    margin-block: 15px;
+    border-radius: 52px;
+    margin: 10px 9px;
+    border: white;
+    border-style: outset;
+}
+
+.container p {
+    position: relative;
+    top: 398px;
+    right: 135px;
+}
+
+.footer {
+    width: 300px;
+    background-color: brown;
+}
+
+.container.premier {
+    background-color: black;
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 44px;
+}
+
+.container.premier {
+    background-color: black;
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+
+}
+
+.container.h3 {
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+
+.container .p1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .hAQsE {
+    background-color: rgb(49, 48, 53);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+} */
+.footer {
+    width: 100%;
+    background-color: #313035;
+}
+
+.footer {
+    font-size: 43px;
+    height: 778px;
+    background-color: #313035;
+}
+
+.bottom button {
+    background-color: rgb(245, 72, 101);
+    color: white;
+    float: right;
+    right: 203px;
+    position: relative;
+    bottom: 84px;
+    border-radius: 11px;
+    width: 113px;
+    border: none;
+    height: 23px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: unset;
+}
+
+.card1 {
+    padding: 14px 45px 12px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .footer img{
+    width: 16%;
+    position: relative;
+    left: 606px;
+} */
+.contact {
+    width: 100%;
+    height: 56px;
+    background-color: wheat;
+}
+.contact{
+    cursor: pointer;
+}
+
+.basic img {
+    width: 2%;
+    position: relative;
+    left: 98px;
+    top: 14px;
+}
+
+.bottom strong {
+    position: relative;
+    left: 171px;
+    bottom: 36px;
+    font-size: x-large;
+}
+
+.bottom p {
+    position: relative;
+    left: 365px;
+    font-size: large;
+    bottom: 62px;
+}
+
+.basic {
+    margin-block-start: 90px;
+    color: white;
+    height: 70px;
+}
+
+.text {
+    color: white;
+    font-size: small;
+}
+
+.text p {
+    margin-block-start: 35px;
+}
+
+.contact h1 {
+    font-size: 15px;
+    position: relative;
+    bottom: -9px;
+}
+
+.contact h2 {
+    font-size: 15px;
+    position: relative;
+    bottom: 50px;
+}
+
+.contact h3 {
+    font-size: 15px;
+    position: relative;
+    bottom: 2px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-user {
+    position: relative;
+    bottom: 11px;
+    font-size: 30px;
+    left: 80px;
+}
+
+.t h6 {
+    background-color: rgb(212, 207, 207);
+}
+
+.card h3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.card h2 {
+    justify-content: center;
+}
+
+.card99 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.t69 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container img {
+    cursor: pointer;
+}
+
+.t {
+    position: relative;
+    left: 20px;
+    margin: 22px;
+}
+
+.t h3 {
+    cursor: pointer;
+
+}
+
+t69 h3 {
+    cursor: pointer;
+}
+
+.fa-ticket {
+    margin-inline-start: 101px;
+    font-size: 35px;
+    position: relative;
+    bottom: 9px;
+    right: 19px;
+}
+
+.fa-envelope {
+    position: relative;
+    bottom: 11px;
+    font-size: 30px;
+    left: 80px;
+}
+
+.hello h3 {
+    margin: 3px;
+}
+
+.hello h2 {
+    margin: 3px;
+}
+
+.social {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 125px;
+}
+
+.column {
+    padding: 0px;
+    margin: 0px;
+    flex-basis: auto;
+    width: 100%;
+}
+
+.sites {
+    text-align: center;
+    fill: rgb(93, 93, 95);
+    position: relative;
+    top: 22px;
+}
+
+.copyrights {
+    padding: 30px;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+.text h6{
+    cursor: pointer;
+}
+.sites{
+    cursor: pointer;
+}
